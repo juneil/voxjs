@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "moduleResolution": "node",
+        "declaration": true,
+        "noImplicitAny": false,
+        "noUnusedLocals": true,
+        "sourceMap": true,
+        "inlineSources": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "outDir": "./built",
+        "rootDir": ".",
+        "skipLibCheck": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+    },
+    "types": [
+        "babylonjs"
+    ],
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "build/**/*"
+    ]
+}
